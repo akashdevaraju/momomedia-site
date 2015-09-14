@@ -4,7 +4,7 @@ var DropDown;
 DropDown = void 0;
 
 $(window).scroll(function() {
-  if ($(".navbar").offset().top > 550) {
+  if ($(".navbar").offset().top > 300) {
     $(".navbar-fixed-top").addClass("top-nav-collapse");
   } else {
     $(".navbar-fixed-top").removeClass("top-nav-collapse");

@@ -147,7 +147,8 @@ a:focus {
   .navbar-custom .navbar-brand {
     font-weight: 700; }
     .navbar-custom .navbar-brand .logo-dark {
-      display: none; }
+      display: none;
+      width: 180px; }
     .navbar-custom .navbar-brand .logo-dark-small {
       display: none; }
     .navbar-custom .navbar-brand .logo-light {
@@ -173,7 +174,8 @@ a:focus {
       box-shadow: 0px 0px 3px 0px rgba(41, 43, 51, 0.25); }
       .navbar-custom.top-nav-collapse .navbar-brand .logo-dark {
         display: block;
-        height: 55px; }
+        height: 35px;
+        margin-top: 7px; }
       .navbar-custom.top-nav-collapse .navbar-brand .logo-light {
         display: none; }
       .navbar-custom.top-nav-collapse .nav {
