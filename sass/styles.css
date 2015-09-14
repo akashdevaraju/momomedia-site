@@ -350,46 +350,17 @@ img::-moz-selection {
 #footer {
   width: 100%;
   background-color: #373945;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   margin-top: 100px; }
   #footer .footer-primary {
     max-width: 970px;
     margin: 0 auto; }
-    #footer .footer-primary input[type="text"] {
-      background: #EBECEE;
-      box-shadow: none;
-      border: none;
-      color: #5f5e5e;
-      font: 20px/20px 'KulturistaMedium';
-      height: 60px;
-      width: 100%;
-      border-radius: 3px;
-      padding: 0 20px; }
-      #footer .footer-primary input[type="text"]::-webkit-input-placeholder {
-        color: #5f5e5e; }
-      #footer .footer-primary input[type="text"]::-moz-placeholder {
-        color: #5f5e5e; }
-      #footer .footer-primary input[type="text"]:-moz-placeholder {
-        color: #5f5e5e; }
-      #footer .footer-primary input[type="text"]:-ms-input-placeholder {
-        color: #5f5e5e; }
-    #footer .footer-primary input::-webkit-input-placeholder {
-      font: 20px/20px 'KulturistaMedium'; }
-    #footer .footer-primary input::-moz-placeholder {
-      font: 20px/20px 'KulturistaMedium'; }
-    #footer .footer-primary input:-ms-input-placeholder {
-      font: 20px/20px 'KulturistaMedium'; }
-    #footer .footer-primary div[class*='col-'] {
-      margin-bottom: 10px; }
+    #footer .footer-primary h4 {
+      font: 20px/28px 'KulturistaMedium'; }
     #footer .footer-primary .contact-send-btn {
-      background: #373945;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s; }
-      #footer .footer-primary .contact-send-btn:not(:disabled):hover {
-        background: #e6e6e6;
-        color: #25282F; }
+      max-width: 170px;
+      border-radius: 90px; }
   #footer .body-type {
     text-align: center;
     color: white; }
@@ -408,7 +379,13 @@ img::-moz-selection {
   font-family: GothamMedium;
   color: white;
   text-transform: uppercase;
-  border-radius: 4px; }
+  border-radius: 4px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
+  .contact-send-btn:hover {
+    background: #e6e6e6;
+    color: #25282F; }
 
 section.selectfield-container {
   width: 480px;
@@ -517,33 +494,6 @@ section.selectfield-container {
             border-bottom: 2px solid white; }
         #footer-secondary .footer-secondary .footer-links li:first-child {
           padding-top: 5px; }
-    #footer-secondary .footer-secondary .social-icons {
-      margin-top: 7px;
-      padding-left: 0; }
-      #footer-secondary .footer-secondary .social-icons li {
-        display: inline;
-        list-style-type: none; }
-        #footer-secondary .footer-secondary .social-icons li a .fa {
-          height: 50px;
-          width: 50px;
-          line-height: 25px;
-          background: #5D5D5D;
-          color: #25282F;
-          border-radius: 100%;
-          font-size: 32px;
-          text-align: center;
-          -webkit-transition: all 0.3s;
-          -moz-transition: all 0.3s;
-          transition: all 0.3s; }
-        #footer-secondary .footer-secondary .social-icons li a:hover .fa {
-          background: #838383; }
-        #footer-secondary .footer-secondary .social-icons li:last-child a {
-          position: relative;
-          top: -1px; }
-          #footer-secondary .footer-secondary .social-icons li:last-child a .fa {
-            line-height: 20px; }
-      #footer-secondary .footer-secondary .social-icons li + li {
-        padding-left: 16px; }
     #footer-secondary .footer-secondary h6 {
       text-align: left;
       text-transform: uppercase;
@@ -1088,5 +1038,24 @@ section.selectfield-container {
   padding-bottom: 10px;
   font-size: 18px;
   font-family: ProximaNova; }
+
+.social-icons {
+  margin-top: 30px;
+  padding-left: 0; }
+  .social-icons li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px; }
+    .social-icons li a .fa {
+      color: white;
+      font-size: 32px;
+      text-align: center;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s; }
+    .social-icons li:last-child {
+      padding-right: 0; }
+  .social-icons li + li {
+    padding-left: 16px; }
 
 /*# sourceMappingURL=styles.css.map */
