@@ -505,8 +505,8 @@ section.selectfield-container {
 #footer-secondary {
   background: #25282F;
   width: 100%;
-  padding-top: 60px;
-  padding-bottom: 250px;
+  padding-top: 27px;
+  padding-bottom: 15px;
   .footer-secondary {
     max-width: 1146px;
     margin: 0 auto;
@@ -551,11 +551,9 @@ section.selectfield-container {
     h6 {
       text-align: left;
       text-transform: uppercase;
-      font: 14px GothamMedium;
+      font: 12px GothamMedium;
       color: #5D5D5D;
-      margin-top: 30px;
       letter-spacing: 1px;
-      padding-left: 10px;
     }
   }
 }
@@ -1289,4 +1287,7 @@ and (max-device-width : 568px) {
   li + li {
     padding-left: 16px;
   }
+}
+a.referral-link {
+  color: #9C9C9C;
 }
