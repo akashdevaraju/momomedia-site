@@ -104,10 +104,10 @@ a:focus {
 /***********************************************************************************************/
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 0;
   text-transform: uppercase;
   font-family: "ProximaNova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #222; }
+  background-color: #DD4815; }
   .navbar-custom .nav {
     margin-top: 20px; }
     .navbar-custom .nav li {
@@ -163,7 +163,7 @@ a:focus {
     color: #ffffff; }
   .navbar-custom .navbar-toggle {
     padding: 4px 6px;
-    font-size: 16px;
+    font-size: 32px;
     color: #ffffff; }
     .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
       outline: none; }
@@ -245,11 +245,11 @@ a:focus {
 
 ::-moz-selection {
   text-shadow: none;
-  background: #ededed; }
+  background: #ececec; }
 
 ::selection {
   text-shadow: none;
-  background: #ededed; }
+  background: #ececec; }
 
 img::selection {
   background: transparent; }
