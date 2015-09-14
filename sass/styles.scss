@@ -485,10 +485,18 @@ section.selectfield-container {
   padding-top: 100px;
   &#about {
     padding-top: 90px;
-    padding-bottom: 30px;
+    padding-bottom: 85px;
+    background: #F8F8F8;
+    width: 100%;
     h2 {
       margin-bottom: 55px;
     }
+  }
+}
+.contrained-rows {
+  .row {
+    max-width: 1170px;
+    margin: 0 auto;
   }
 }
 .second-px-image {
@@ -1296,4 +1304,20 @@ and (max-device-width : 568px) {
     margin-bottom: 0;
     height: 480px;
   }
+}
+.secondary-heading {
+  color: #2c3e50;
+  text-align: left;
+  font-size: 32px;
+  font-family: GothamMedium;
+}
+.section-heading {
+  text-align: left;
+  color: #a1a5ad;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+  margin-bottom: 52px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  font-family: ProximaNova;
 }
