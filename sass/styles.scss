@@ -81,6 +81,7 @@ a:focus {
         padding: 15px 0;
         @include transition(background 0.3s ease-in-out);
         padding-bottom: 7px;
+        font-size: 18px;
         &:hover, &:focus {
           outline: none;
           background: transparent;
@@ -128,8 +129,8 @@ a:focus {
     }
     .logo-light {
       display: block;
-      width: 180px;
-      margin-top: 15px;
+      width: 240px;
+      margin-top: 12px;
     }
     .logo-light-small {
       display: none;
@@ -157,8 +158,8 @@ a:focus {
       .navbar-brand {
         .logo-dark {
           display: block;
-          height: 35px;
           margin-top: 7px;
+          width: 240px;
         }
         .logo-light {
           display: none;
