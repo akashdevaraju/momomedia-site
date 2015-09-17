@@ -416,10 +416,12 @@ img::-moz-selection {
     margin-top: 0;
   }
   .crew-image-box {
-    padding-bottom: 25px;
     img {
       border-left: 10px solid $brand-color;
     }
+  }
+  p {
+    margin-bottom: 0;
   }
 }
 .contact-send-btn {
@@ -940,8 +942,12 @@ section.selectfield-container {
   }
 }
 @media only screen and (max-width: 480px){
+  .crew-section {
+    .crew-image-box {
+      padding-bottom: 25px;
+    }
+  }
   .brand-heading {
-    font: 100 47px "GothamXLight";
     margin-top: 40px;
   }
   .intro {
@@ -981,9 +987,7 @@ section.selectfield-container {
   .content-section {
     padding-top: 50px;
   }
-  h3 {
-    margin-top: 50px !important;
-  }
+
   p {
     margin-bottom: 0;
   }

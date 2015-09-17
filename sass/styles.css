@@ -376,10 +376,10 @@ img::-moz-selection {
 
 .crew-section h3 {
   margin-top: 0; }
-.crew-section .crew-image-box {
-  padding-bottom: 25px; }
-  .crew-section .crew-image-box img {
-    border-left: 10px solid #DD4815; }
+.crew-section .crew-image-box img {
+  border-left: 10px solid #DD4815; }
+.crew-section p {
+  margin-bottom: 0; }
 
 .contact-send-btn {
   display: inline-block;
@@ -774,8 +774,10 @@ section.selectfield-container {
   #services, #case-study {
     padding-top: 128px; } }
 @media only screen and (max-width: 480px) {
+  .crew-section .crew-image-box {
+    padding-bottom: 25px; }
+
   .brand-heading {
-    font: 100 47px "GothamXLight";
     margin-top: 40px; }
 
   .intro {
@@ -810,9 +812,6 @@ section.selectfield-container {
 
   .content-section {
     padding-top: 50px; }
-
-  h3 {
-    margin-top: 50px !important; }
 
   p {
     margin-bottom: 0; }
