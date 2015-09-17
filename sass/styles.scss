@@ -191,12 +191,13 @@ a:focus {
             margin-top: 6px;
             a {
               padding: 10px 15px;
-              padding-left: 35px;
+              padding-left: 25px;
+              border-left: 1px solid rgba(0,0,0,0.1);
+              padding-right: 0;
               &:hover {
                 border: none;
                 border-left: 1px solid rgba(0,0,0,0.1);
               }
-              border-left: 1px solid rgba(0,0,0,0.1);
             }
           }
           &.active {
