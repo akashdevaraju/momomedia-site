@@ -411,6 +411,17 @@ img::-moz-selection {
     margin: 0 auto;
   }
 }
+.crew-section {
+  h3 {
+    margin-top: 0;
+  }
+  .crew-image-box {
+    padding-bottom: 25px;
+    img {
+      border-left: 10px solid $brand-color;
+    }
+  }
+}
 .contact-send-btn {
   display: inline-block;
   line-height: 57px;
@@ -877,9 +888,7 @@ section.selectfield-container {
       padding: 20px 10%;
     }
   }
-  .brand-heading {
-    font: 100 55px "GothamXLight";
-  }
+
   br  {
     content: ' '
   }

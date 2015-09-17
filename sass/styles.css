@@ -374,6 +374,13 @@ img::-moz-selection {
   max-width: 856px;
   margin: 0 auto; }
 
+.crew-section h3 {
+  margin-top: 0; }
+.crew-section .crew-image-box {
+  padding-bottom: 25px; }
+  .crew-section .crew-image-box img {
+    border-left: 10px solid #DD4815; }
+
 .contact-send-btn {
   display: inline-block;
   line-height: 57px;
@@ -732,9 +739,6 @@ section.selectfield-container {
 @media only screen and (max-width: 990px) {
   .line-btn .mid-btn-cta {
     padding: 20px 10%; }
-
-  .brand-heading {
-    font: 100 55px "GothamXLight"; }
 
   br {
     content: " "; }
