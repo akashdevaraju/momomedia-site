@@ -18,7 +18,7 @@ $(function() {
     t = void 0;
     t = $(this);
     $("html, body").stop().animate({
-      scrollTop: $(t.attr("href")).offset().top + ($(window).width() < 480 ? -50 : 0)
+      scrollTop: $(t.attr("href")).offset().top + ($(window).width() < 480 ? -20 : 20)
     }, 1500, "easeInOutExpo");
     e.preventDefault();
   });
