@@ -857,7 +857,7 @@ section.selectfield-container {
   .navbar-custom {
     .navbar-brand {
       .logo-light {
-        display: none;
+        display: block;
       }
       .logo-light-small {
         display: block;
@@ -866,7 +866,7 @@ section.selectfield-container {
     &.top-nav-collapse {
       .navbar-brand {
         .logo-light,.logo-dark,.logo-light-small {
-          display: none;
+          display: block;
         }
         .logo-dark-small {
           display: block;
@@ -928,10 +928,10 @@ section.selectfield-container {
     }
   }
 }
+a.filter:hover{
+  color:red;
+}
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  .navbar-fixed-top {
-    position: relative;
-  }
   .intro {
     padding-top: 50px;
   }
